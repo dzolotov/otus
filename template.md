@@ -167,6 +167,42 @@ style: |
       background-size: cover;
   }
 
+  section.question_page h1 {
+      position: absolute;
+      top: 40%;
+      width: 40%;
+      left: 11%;
+      color: white;
+      font-size: 40pt;
+      font-weight: bold;
+      font-family: Roboto;
+  }
+  section.question_page h3 {
+      position: absolute;
+      top: 67%;
+      left: 18%;
+      width: 35%;
+      color: white;
+      font-size: 18pt;
+      font-weight: normal;
+      font-family: Roboto;
+  }
+
+  section.question_page img[alt="PLUS"] {
+      background-color: transparent;
+      position: absolute;
+      display: block;
+      top: 70%;
+      left: 11%;
+      width: 5%;
+      height: 9%;
+  }
+
+  section.question_page {
+      background-image: url("https://raw.githubusercontent.com/dzolotov/otus/main/theme/section.jpg");
+      background-size: cover;
+  }
+
   section.third_page h6, section.last_page h6 {
       position: absolute;
       left: 5%;
@@ -501,8 +537,8 @@ style: |
 ![{{a["alt"]}}]({{a["src"]}})
     {% elif a["question"] %}
 # {{ a["question"] }}
-<!-- _class: second_page -->
-### Ставим “+”, если {{ a["plus"] }}, или “-”, если {{ a["minus"] }}
+<!-- _class: question_page -->
+### Ставим “+”, если {{ a["plus"]}}, или “-”, если {{ a["minus"] }}
 ![PLUS](https://raw.githubusercontent.com/dzolotov/otus/main/theme/plusminus.png)
     {% endif %} 
 ---
