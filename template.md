@@ -499,7 +499,7 @@ style: |
 <!-- _class: page_image -->
 # {{ a["image"] }}
 ![{{a["alt"]}}]({{a["src"]}})
-    {% elif a["question"]} %}
+    {% elif a["question"] %}
 # {{ a["question"] }}
 <!-- _class: second_page -->
 ### Ставим “+”, если {{ a["plus"]}}, или “-”, если {{ a["minus"] }}
