@@ -48,7 +48,7 @@ style: |
 
   td {
     font-size: 80%;
-    line-height: 80%;
+    line-height: 100%;
     padding-top: 4px;
     padding-bottom: 4px;
   }
