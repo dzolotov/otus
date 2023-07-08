@@ -1,0 +1,9 @@
+#!/bin/bash
+wget https://raw.githubusercontent.com/dzolotov/otus/main/template.md
+cat $1.yaml | jinja2 --format=yaml template.md >$1.md
+marp --author Dmitrii Zolotov --keywords otus --description "$1" --pdf $1.md -o $1.pdf --allow-local-files
+rm $1.md
+rm template.md
+echo $1.pdf >>.gitignore
+open $1.pdf
+
