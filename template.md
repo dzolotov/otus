@@ -301,6 +301,23 @@ style: |
       margin-bottom: auto;
   }
 
+  section.page_withqimage {
+      padding-right: 25%;
+  }
+
+  section.page_withqimage img {
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      left: 75%;
+      width: 25%;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
   section.page_image img {
       position: absolute;
       height: 480px;
@@ -459,6 +476,11 @@ style: |
     {% elif a["withimage" ] %}
 <!-- _class: page_withimage -->
 # {{ a["withimage"] }}
+{{ a["content" ]}}
+![{{ a["alt"] }}]({{ a["src"] }})
+    {% elif a["withqimage" ] %}
+<!-- _class: page_withqimage -->
+# {{ a["withqimage"] }}
 {{ a["content" ]}}
 ![{{ a["alt"] }}]({{ a["src"] }})
     {% elif a["image"] %}
