@@ -49,8 +49,8 @@ style: |
   td {
     font-size: 80%;
     line-height: 100%;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 
   h1 {
