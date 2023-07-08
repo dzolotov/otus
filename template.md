@@ -46,6 +46,13 @@ style: |
       color: orange;
   }
 
+  td {
+    font-size: 80%;
+    line-height: 80%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
   h1 {
       position: absolute;
       left: 5%;
