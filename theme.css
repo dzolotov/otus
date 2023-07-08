@@ -152,6 +152,11 @@ section.second_page img[alt="PLUS"] {
     height: 9%;
 }
 
+section.second_page {
+    background-image: url("https://raw.githubusercontent.com/dzolotov/otus/main/theme/background_third.jpg");
+    background-size: cover;
+}
+
 section.third_page h6, section.last_page h6 {
     position: absolute;
     left: 5%;
