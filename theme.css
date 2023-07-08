@@ -102,6 +102,11 @@ section.first_page h3 {
     left: 11%;
 }
 
+section.second_page {
+    background-image: url(theme/background_third.jpg);
+    background-size: cover;
+}
+
 section.second_page h1 {
     position: absolute;
     top: 40%;
