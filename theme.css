@@ -4,7 +4,7 @@
  */
 
 section {
-    background-image: url(theme/background_third.jpg);
+    background-image: url("theme/background_third.jpg");
     background-size: cover;
 }
 
@@ -83,7 +83,7 @@ ol li {
 }
 
 section.first_page {
-    background-image: url(theme/background.jpg);
+    background-image: url("theme/background.jpg");
     background-size: cover;
 }
 
@@ -268,7 +268,7 @@ section.page_route li {
 }
 
 section.page_section {
-    background-image: url(theme/section.jpg);
+    background-image: url("theme/section.jpg");
     background-size: cover;
 }
 
