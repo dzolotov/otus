@@ -313,7 +313,7 @@ style: |
   }
 
   section.page_reflexion {
-      background-image: url(theme/reflexion.png);
+      background-image: url(https://raw.githubusercontent.com/dzolotov/otus/main/theme/reflexion.png);
       background-size: cover;
   }
 
