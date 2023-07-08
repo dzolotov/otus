@@ -499,7 +499,12 @@ style: |
 <!-- _class: page_image -->
 # {{ a["image"] }}
 ![{{a["alt"]}}]({{a["src"]}})
-    {% endif %}
+    {% elif a["question"]} %}
+# {{ a["question"] }}
+<!-- _class: second_page -->
+### Ставим “+”, если {{ a["plus"]}}, или “-”, если {{ a["minus"] }}
+![PLUS](https://raw.githubusercontent.com/dzolotov/otus/main/theme/plusminus.png)
+    {% endif %} 
 ---
 {% endfor %}
 <!-- _class: page_section -->
