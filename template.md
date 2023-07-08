@@ -502,7 +502,7 @@ style: |
     {% elif a["question"] %}
 # {{ a["question"] }}
 <!-- _class: second_page -->
-### Ставим “+”, если {{ a["plus"]}}, или “-”, если {{ a["minus"] }}
+### Ставим “+”, если {{ a["plus"] }}, или “-”, если {{ a["minus"] }}
 ![PLUS](https://raw.githubusercontent.com/dzolotov/otus/main/theme/plusminus.png)
     {% endif %} 
 ---
