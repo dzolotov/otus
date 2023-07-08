@@ -4,7 +4,7 @@
  */
 
 section {
-    background-image: url("theme/background_third.jpg");
+    background-image: url("https://raw.githubusercontent.com/dzolotov/otus/main/theme/background_third.jpg");
     background-size: cover;
 }
 
@@ -83,7 +83,7 @@ ol li {
 }
 
 section.first_page {
-    background-image: url("theme/background.jpg");
+    background-image: url("https://raw.githubusercontent.com/dzolotov/otus/main/theme/background.jpg");
     background-size: cover;
 }
 
@@ -206,7 +206,7 @@ section.third_page marp-pre code, section.last_page marp-pre code {
 }
 
 section.third_page, section.last_page {
-    background-image: url(theme/background_third.jpg);
+    background-image: url("https://raw.githubusercontent.com/dzolotov/otus/main/theme/background_third.jpg");
     background-size: cover;
 }
 
@@ -245,7 +245,7 @@ section.page_about li {
 }
 
 section.page_rules {
-    background-image: url(theme/rules.png);
+    background-image: url(https://raw.githubusercontent.com/dzolotov/otus/main/theme/rules.png);
     background-size: cover;
 }
 
@@ -268,7 +268,7 @@ section.page_route li {
 }
 
 section.page_section {
-    background-image: url("theme/section.jpg");
+    background-image: url("https://raw.githubusercontent.com/dzolotov/otus/main/theme/section.jpg");
     background-size: cover;
 }
 
