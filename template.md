@@ -1,6 +1,11 @@
 ---
 marp: true
 style: |
+  @font-face {
+    font-family: "Virgil";
+    src: url("https://excalidraw.com/FG_Virgil.woff2");
+  }
+
   section {
       background-image: url("https://raw.githubusercontent.com/dzolotov/otus/main/theme/background_third.jpg");
       background-size: cover;
