@@ -13,7 +13,7 @@ fi
 rm -f template.md
 wget -q https://raw.githubusercontent.com/dzolotov/otus/main/template.md
 cat $A.yaml | jinja2 --format=yaml template.md >$A.md
-marp ~/marp/marp.config.js --author Dmitrii Zolotov --keywords otus --description "$1" --pdf $A.md -o $A.pdf --allow-local-files
+marp -c ~/marp/marp.config.js --author Dmitrii Zolotov --keywords otus --description "$1" --pdf $A.md -o $A.pdf --allow-local-files
 rm $A.md
 rm template.md
 
