@@ -373,8 +373,11 @@ style: |
       top: 128px;
       left: 0px;
       right: 0px;
+      bottom: 0px;
       margin-left: auto;
       margin-right: auto;        
+      margin-top: auto;
+      margin-bottom: auto;
   }
 
   section.page_reflexion {
