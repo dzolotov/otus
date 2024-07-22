@@ -1,4 +1,7 @@
 #!/bin/bash
+brew install marp-cli
+brew link --overwrite marp-cli
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 if [ -z "$1" ]
 then
   A=lecture
@@ -13,7 +16,7 @@ fi
 rm -f template.md
 wget -q https://raw.githubusercontent.com/dzolotov/otus/main/template.md
 cat $A.yaml | jinja2 --format=yaml template.md >$A.md
-marp -c ~/marp/marp.config.js --author Dmitrii Zolotov --keywords otus --description "$1" --pdf $A.md -o $A.pdf --allow-local-files
+marp -c $SCRIPT_DIR/marp-config.json --author Dmitrii Zolotov --keywords otus --description "$1" --pdf $A.md -o $A.pdf --allow-local-files
 rm $A.md
 rm template.md
 
